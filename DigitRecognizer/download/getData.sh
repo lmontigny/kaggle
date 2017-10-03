@@ -12,4 +12,5 @@ pushd data
 gunzip -dk *
 python ../convertCSV.py
 popd
+mv data ../
 
